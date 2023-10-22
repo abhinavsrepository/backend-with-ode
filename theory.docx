@@ -5,3 +5,14 @@ high level overview ===> Quick overview practise in this section
 better the networking capabiltiy js on server runtime power the backend 
 
 usecases of node 
+its a single threaded --> runs easily on server 
+superfast and scalable 
+api with database and in mongodb
+datastream server side apps
+possiblity is endless super heavy manipulation 
+ruby on rails on server- side rendering is best use but not in node js
+ netflix uber paypal ebay
+ js enitre across the enitre stack more faster sand efficient developement
+ NPM huge library open-sourse package available for faster
+ very active develoepr community
+ 
