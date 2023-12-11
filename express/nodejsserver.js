@@ -4,7 +4,7 @@ const http =require('http');
 // take 1 arg:
 //callback has 2 args :req,res
 const server = http.createServer((req,res)=>{
-console.log (req)
+console.log (req) 
 // res ==our way torespond the msgs
 // http messages 
 // 1. start-line -checkPrime
@@ -13,8 +13,7 @@ console.log (req)
 //  write Head takes 2 args :
 // status code 
 // object for the mime-type
-res.writeHead(200,{'content-type':'text/html'});
-
+res.writeHead(200,{'content-type':'text/html'}); 
 res.write ('<h1>helllo to the world becoming best coder in the world </h1>')
 res.end();
 });
