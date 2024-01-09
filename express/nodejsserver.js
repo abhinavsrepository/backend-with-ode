@@ -16,6 +16,11 @@ console.log (req)
 res.writeHead(200,{'content-type':'text/html'}); 
 res.write ('<h1>helllo to the world becoming best coder in the world </h1>')
 res.end();
+}
+else{
+    res.writeHead(404,{'content-type':'text/html'})
+    res.write(`<h4>Sorry ,this isnt the page you re looking for!</h4>`);
+    res.end();
 });
 // createServer returns an object  with a listen method 
 // listen takes 1 arg 
