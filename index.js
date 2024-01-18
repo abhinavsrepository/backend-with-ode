@@ -5,6 +5,6 @@ console.log(textIn);
 const textOut =
   "this is  we know about node js:  ${textIn}.\nCreated on ${Date.now()}";
 
-//writing in new module
-fs.writeFileSync("./txt/output.txt", textOut);
-console.log("file written");
+//writing in new module😀
+// making funny code ī😆
+// okk😉
